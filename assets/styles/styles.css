@@ -1,0 +1,133 @@
+*{
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+  /*font-family: Courier New;*/
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  padding: 0rem 1rem;
+  background-color: #104542;
+}
+.audio-controls-card{
+  width: 100%;
+  background-color: #104542;
+  padding: 1rem 0.5rem;
+}
+.track-banner-container{
+  width: 100%;
+  display: flex;
+  padding: 1rem 0rem;
+}
+.track-banner{
+  width: 100%;
+  height: 18rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px black;
+  margin: auto;
+}
+.track-name-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem 0rem;
+}
+.track-name{
+ color: #F5FDFD; 
+ font-size: 1.5rem;
+ font-weight: bold;
+ text-align: left;
+ margin: 0rem;
+}
+.artist-name{
+  color: #7D8E8D;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 0rem;
+}
+.progress-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 0.4rem 0rem;
+}
+ input[type=range]{
+  width: 100%;
+  -webkit-appearance: none;
+  background: #FBFFFF;
+  border: #FBFFFF;
+  outline: none;
+  border-radius: 5px;
+  height: 5px;
+}
+input[type=range]::-webkit-slider-thumb{
+  width: 100%;
+  -webkit-appearance: none;
+  background: #FBFFFF;
+  border: 1px solid #FBFFFF;
+  outline: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-runable-track{
+  background: #7D8E8D;
+  border: 1px solid #7D8E8D;
+}
+.timer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem;
+}
+.current-timer,.duration-timer{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #A1B0B2;
+  padding: 0rem;
+  margin: 0rem;
+}
+.icon-div{
+  width: 100%;
+  display: flex;
+}
+.controls-icon-container{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  margin: auto;
+}
+.space{
+  margin: auto 0rem;
+  color: #fff;
+}
+.icon-container{
+  width: 65%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.3em;
+}
+.play-icon-container{
+  font-size: 2.5em;
+}
+.repeat,.shuffle,.silent{
+  display: flex;
+  border: 3px solid #104542;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 100%;
+  margin: auto;
+}
+.white{
+  color: #FFFFFF;
+  margin: auto;
+}
+.white-circle{
+  border: 3px solid #FFFFFF;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 100%;
+}
